@@ -1,3 +1,5 @@
+package CharacterBattle;
+
 // Java 기본 제공 입력 클래스. 외부 라이브러리가 필요 없다.
 import java.util.Scanner;
 

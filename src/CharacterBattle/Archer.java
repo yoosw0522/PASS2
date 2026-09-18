@@ -1,3 +1,5 @@
+package CharacterBattle;
+
 // 궁수도 같은 공격 메서드 이름을 사용하므로 Main을 직업별로 나눌 필요가 없다.
 public class Archer extends GameCharacter {
     public Archer() {

@@ -23,16 +23,16 @@ Java 클래스와 객체지향 개념을 복습하기 위해 만든 간단한 �
 ## 실행 방법
 
 1. IntelliJ IDEA 실행
-2. `PokemonBattleStudy` 폴더 열기
-3. `src/Main.java` 열기
+2. `PASS2` 루트 폴더 열기
+3. `src/PokemonBattleStudy/Main.java` 열기
 4. `main()` 옆의 실행 버튼 클릭
 5. 콘솔에서 번호를 입력해 게임 진행
 
 ## 프로젝트 구조
 
 ```text
-PokemonBattleStudy
-└── src
+PASS2
+└── src/PokemonBattleStudy
     ├── Main.java
     └── Pokemon.java
 ```

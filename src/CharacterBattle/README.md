@@ -5,12 +5,12 @@
 
 ## IntelliJ 실행
 
-1. 압축을 풀고 이 README와 src가 들어 있는 CharacterBattle 폴더를 엽니다.
-2. src/Main.java의 main 옆 실행 버튼을 누릅니다.
+1. PASS2 루트 폴더를 엽니다.
+2. src/CharacterBattle/Main.java의 main 옆 실행 버튼을 누릅니다.
 3. SDK가 없다고 나오면 File > Project Structure > Project > SDK에서 설치된 JDK를 고릅니다.
 4. Run 창에서 메뉴 번호를 입력하고 Enter를 누릅니다.
 
-현재 PC의 openjdk-26을 기본 SDK 이름으로 지정했습니다. 외부 라이브러리와 빌드 도구는 필요 없습니다.
+Project SDK는 설치된 JDK를 선택합니다. 외부 라이브러리와 빌드 도구는 필요 없습니다.
 
 ## 전투 규칙
 
@@ -69,8 +69,8 @@ https://github.com/yoosw0522/java1/tree/master/src/ai0604/inheritance
 ## 터미널 실행
 
 ```text
-javac -encoding UTF-8 -d out src/Main.java src/GameCharacter.java src/Warrior.java src/Mage.java src/Archer.java src/Rogue.java
-java -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -cp out Main
+javac -encoding UTF-8 -d out src/CharacterBattle/*.java
+java -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -cp out CharacterBattle.Main
 ```
 
 

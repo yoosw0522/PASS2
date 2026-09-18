@@ -1,3 +1,5 @@
+package CharacterBattle;
+
 // 도적은 조건문과 난수를 이용해 일반 공격의 내용을 다르게 구현한다.
 public class Rogue extends GameCharacter {
     public Rogue() {

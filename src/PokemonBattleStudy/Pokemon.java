@@ -1,3 +1,5 @@
+package PokemonBattleStudy;
+
 public class Pokemon {
 
     // 한 포켓몬이 가지고 있어야 하는 정보들을 필드로 만들었다.

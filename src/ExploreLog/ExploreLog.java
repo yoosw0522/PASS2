@@ -1,3 +1,5 @@
+package ExploreLog;
+
 public class ExploreLog {
     private String area;
     private String content;

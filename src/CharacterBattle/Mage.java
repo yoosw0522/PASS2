@@ -1,3 +1,5 @@
+package CharacterBattle;
+
 // 전사와 같은 부모를 상속하지만 별도의 자식 클래스이다.
 public class Mage extends GameCharacter {
     public Mage() {

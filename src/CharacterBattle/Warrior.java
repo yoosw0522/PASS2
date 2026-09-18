@@ -1,3 +1,5 @@
+package CharacterBattle;
+
 // extends로 부모의 필드와 체력 관리 메서드를 물려받는다.
 public class Warrior extends GameCharacter {
     // 매개변수가 없는 전사 생성자. 전사의 초기 능력치를 부모에게 넘긴다.
