@@ -4,3 +4,5 @@ out/
 *.iml
 !/PASS2.iml
 .DS_Store
+
+explore_log.txt
